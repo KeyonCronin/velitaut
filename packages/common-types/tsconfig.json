@@ -1,0 +1,29 @@
+{
+   "compilerOptions": {
+      "module": "ESNext",
+      "moduleResolution": "Bundler",
+      "target": "ES2020",
+      "esModuleInterop": true,
+      "allowJs": true,
+      "strict": true,
+      "noImplicitAny": true,
+      "baseUrl": ".",
+      "forceConsistentCasingInFileNames": true,
+      "skipLibCheck": true,
+      "rootDir": "src",
+      "lib": [
+         "ESNext",
+         "ESNext.AsyncIterable",
+         "DOM"
+      ],
+      "experimentalDecorators": true,
+      "verbatimModuleSyntax": true,
+   },
+   "include": [
+      "./src/**/*"
+   ],
+   "exclude": [
+      "node_modules",
+      "dist"
+   ]
+}
